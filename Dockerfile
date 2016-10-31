@@ -21,6 +21,8 @@ RUN yum makecache fast \
       ansible \
       sudo \
       which \
+      zip \
+      unzip \
  && yum clean all
 
 # Disable requiretty.
